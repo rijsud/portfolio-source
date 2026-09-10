@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    // <div className="min-h-screen bg-slate-950 text-slate-200">
+    // <div className="min-h-screen bg-background text-text-primary">
     <div className="mx-auto min-h-screen max-w-7xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
         {/* Left Column: Sticky Header & Navigation */}
@@ -19,14 +19,14 @@ function App() {
 
           <Projects />
 
-          <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+          <footer className="max-w-md pb-16 text-sm text-text-muted sm:pb-0">
             <p>
               Designed in Figma and coded in Visual Studio Code. Inspired by{" "}
               <a
                 href="https://brittanychiang.com/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-teal-300 hover:text-teal-400 focus-visible:text-teal-400"
+                className="text-accent hover:text-accent-hover focus-visible:text-accent-hover"
               >
                 Brittany Chiang's
               </a>{" "}

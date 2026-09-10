@@ -6,8 +6,8 @@ export default function Experience() {
       id="experience"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-text-primary lg:sr-only">
           Experience
         </h2>
       </div>
@@ -17,17 +17,17 @@ export default function Experience() {
           {experienceData.map((job) => (
             <li key={job.id} className="mb-12">
               <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-surface/50 lg:group-hover:shadow-[inset_0_1px_0_0_var(--color-border-highlight)] lg:group-hover:drop-shadow-lg"></div>
 
-                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+                <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-text-muted sm:col-span-2">
                   {job.dateRange}
                 </header>
 
                 <div className="z-10 sm:col-span-6">
-                  <h3 className="font-medium leading-snug text-slate-200">
+                  <h3 className="font-medium leading-snug text-text-primary">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-text-primary hover:text-accent focus-visible:text-accent group/link text-base"
                         href={job.companyUrl}
                         target="_blank"
                         rel="noreferrer"
@@ -52,7 +52,7 @@ export default function Experience() {
                       </a>
                     </div>
                   </h3>
-                  <p className="mt-2 text-sm leading-normal text-slate-400">
+                  <p className="mt-2 text-sm leading-normal text-text-secondary">
                     {job.description}
                   </p>
                   <ul
@@ -61,7 +61,7 @@ export default function Experience() {
                   >
                     {job.technologies.map((tech) => (
                       <li key={tech} className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        <div className="flex items-center rounded-full bg-accent-muted px-3 py-1 text-xs font-medium leading-5 text-accent">
                           {tech}
                         </div>
                       </li>
@@ -82,32 +82,32 @@ export default function Experience() {
 //       <ol className="group/list">
 //         <li className="mb-12">
 //           <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-//             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+//             <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-surface/50 lg:group-hover:shadow-[inset_0_1px_0_0_var(--color-border-highlight)] lg:group-hover:drop-shadow-lg"></div>
 
-//             <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
+//             <header className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-text-muted sm:col-span-2">
 //               2024 — Present
 //             </header>
 
 //             <div className="z-10 sm:col-span-6">
-//               <h3 className="font-medium leading-snug text-slate-200">
+//               <h3 className="font-medium leading-snug text-text-primary">
 //                 <div>
-//                   <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base" href="https://klaviyo.com" target="_blank" rel="noreferrer">
+//                   <a className="inline-flex items-baseline font-medium leading-tight text-text-primary hover:text-accent focus-visible:text-accent group/link text-base" href="https://klaviyo.com" target="_blank" rel="noreferrer">
 //                     <span>Senior Frontend Engineer, Accessibility · Klaviyo</span>
 //                   </a>
 //                 </div>
 //               </h3>
-//               <p className="mt-2 text-sm leading-normal text-slate-400">
+//               <p className="mt-2 text-sm leading-normal text-text-secondary">
 //                 Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams to implement and advocate for best practices in web accessibility.
 //               </p>
 //               <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
 //                 <li className="mr-1.5 mt-2">
-//                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">JavaScript</div>
+//                   <div className="flex items-center rounded-full bg-accent-muted px-3 py-1 text-xs font-medium leading-5 text-accent">JavaScript</div>
 //                 </li>
 //                 <li className="mr-1.5 mt-2">
-//                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">React</div>
+//                   <div className="flex items-center rounded-full bg-accent-muted px-3 py-1 text-xs font-medium leading-5 text-accent">React</div>
 //                 </li>
 //                 <li className="mr-1.5 mt-2">
-//                   <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">Storybook</div>
+//                   <div className="flex items-center rounded-full bg-accent-muted px-3 py-1 text-xs font-medium leading-5 text-accent">Storybook</div>
 //                 </li>
 //               </ul>
 //             </div>

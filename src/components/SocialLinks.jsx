@@ -4,7 +4,7 @@ export default function SocialLinks() {
       {/* GitHub */}
       <li className="mr-5 shrink-0 text-xs">
         <a 
-          className="block text-slate-400 transition-colors hover:text-slate-200" 
+          className="block text-text-secondary transition-colors hover:text-text-primary" 
           href="https://github.com/rijsud" 
           target="_blank" 
           rel="noreferrer noopener" 
@@ -21,7 +21,7 @@ export default function SocialLinks() {
       {/* LinkedIn */}
       <li className="mr-5 shrink-0 text-xs">
         <a 
-          className="block text-slate-400 transition-colors hover:text-slate-200" 
+          className="block text-text-secondary transition-colors hover:text-text-primary" 
           href="https://www.linkedin.com/in/rijul-sudesh/" 
           target="_blank" 
           rel="noreferrer noopener" 
@@ -42,14 +42,14 @@ export default function SocialLinks() {
 // export default function SocialLinks() {
 //   return (
 //     <ul className="ml-1 mt-8 flex items-center gap-5" aria-label="Social media">
-//       <li className="text-slate-400 hover:text-slate-200">
+//       <li className="text-text-secondary hover:text-text-primary">
 //         <a href="https://github.com/rijsud" target="_blank" rel="noreferrer">
 //           <span className="sr-only">GitHub</span>
 //           {/* SVG Icon goes here */}
 //           [GitHub Icon]
 //         </a>
 //       </li>
-//       <li className="text-slate-400 hover:text-slate-200">
+//       <li className="text-text-secondary hover:text-text-primary">
 //         <a href="https://linkedin.com/in/rijul-sudesh" target="_blank" rel="noreferrer">
 //           <span className="sr-only">LinkedIn</span>
 //           <img src={linkedInLogo} alt="LinkedIn logo" />

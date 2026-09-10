@@ -1,8 +1,33 @@
 @import "tailwindcss";
 
+@theme {
+  /* --color-page-bg: #7F55B1;
+  --color-page-text: #FFE1E0;
+  --color-selection: #9B7EBD; */
+
+  --color-background: #0f172a; /* Replaces slate-900 */
+  --color-surface: #1e293b;    /* Replaces slate-800 for hover states */
+  --color-text-primary: #e2e8f0; /* Replaces slate-200 */
+  --color-text-secondary: #94a3b8; /* Replaces slate-400 */
+  --color-text-muted: #64748b; /* Replaces slate-500 */
+  --color-accent: #5eead4;     /* Replaces teal-300 */
+  --color-accent-hover: #2dd4bf; /* Replaces teal-400 */
+  --color-accent-muted: rgba(45, 212, 191, 0.1); /* Replaces teal-400/10 */
+  --color-border-highlight: rgba(148, 163, 184, 0.1);
+
+  /* --color-slate-950: #2b1235;
+  --color-slate-900: #3a1847;
+  --color-slate-800: #5b2b6d;
+  --color-slate-500: #d9a8cf;
+  --color-slate-400: #f0c8e2;
+  --color-slate-200: #fff0fa;
+  --color-teal-400: #f7c1e3;
+  --color-teal-300: #ffe1f3; */
+}
+
 @layer base {
   body {
-    /* Sets the dark navy background and default text color globally */
-    @apply bg-slate-900 text-slate-400 leading-relaxed antialiased selection:bg-teal-300 selection:text-teal-900;
+    @apply bg-background text-text-secondary leading-relaxed antialiased selection:bg-accent selection:text-surface;
+    /* @apply bg-slate-900 text-slate-400 leading-relaxed antialiased selection:bg-teal-300 selection:text-teal-900; */
   }
 }

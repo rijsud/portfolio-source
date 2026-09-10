@@ -7,8 +7,8 @@ export default function Projects() {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
       {/* Sticky Mobile Header */}
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
-        <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-background/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+        <h2 className="text-sm font-bold uppercase tracking-widest text-text-primary lg:sr-only">
           Projects
         </h2>
       </div>
@@ -19,7 +19,7 @@ export default function Projects() {
             <li key={project.id} className="mb-12">
               <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
                 {/* Hover Background */}
-                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
+                <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-surface/50 lg:group-hover:shadow-[inset_0_1px_0_0_var(--color-border-highlight)] lg:group-hover:drop-shadow-lg"></div>
 
                 {/* Left Column: Image with Native Lazy Loading */}
                 {project.image && (
@@ -29,17 +29,17 @@ export default function Projects() {
                       src={project.image}
                       loading="lazy"
                       decoding="async"
-                      className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:translate-y-1"
+                      className="rounded border-2 border-text-primary/10 transition group-hover:border-text-primary/30 sm:translate-y-1"
                     />
                   </div>
                 )}
 
                 {/* Right Column: Content */}
                 <div className="z-10 sm:order-2 sm:col-span-6">
-                  <h3 className="font-medium leading-snug text-slate-200">
+                  <h3 className="font-medium leading-snug text-text-primary">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                        className="inline-flex items-baseline font-medium leading-tight text-text-primary hover:text-accent focus-visible:text-accent group/link text-base"
                         href={project.url}
                         target="_blank"
                         rel="noreferrer"
@@ -67,13 +67,13 @@ export default function Projects() {
                     </div>
                   </h3>
 
-                  <p className="mt-2 text-sm leading-normal text-slate-400">
+                  <p className="mt-2 text-sm leading-normal text-text-secondary">
                     {project.description}
                   </p>
 
                   {/* Optional Stats (like GitHub stars)
                   {project.stats && (
-                    <p className="mt-2 flex items-center text-sm text-slate-400">
+                    <p className="mt-2 flex items-center text-sm text-text-secondary">
                       {project.stats}
                     </p>
                   )} */}
@@ -84,7 +84,7 @@ export default function Projects() {
                   >
                     {project.technologies.map((tech) => (
                       <li key={tech} className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        <div className="flex items-center rounded-full bg-accent-muted px-3 py-1 text-xs font-medium leading-5 text-accent">
                           {tech}
                         </div>
                       </li>

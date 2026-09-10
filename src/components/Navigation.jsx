@@ -4,25 +4,25 @@ export default function Navigation() {
       <ul className="mt-16 w-max">
         <li>
           <a className="group flex items-center py-3 active" href="#about">
-            {/* <span className="nav-indicator mr-4 h-px w-8 bg-slate-500 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span> */}
-            <span className="mr-4 h-1 w-1 rounded-full bg-slate-500 transition-all group-hover:w-8 group-hover:bg-slate-200"></span>
-            <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">
+            {/* <span className="nav-indicator mr-4 h-px w-8 bg-text-muted transition-all group-hover:w-16 group-hover:bg-text-primary group-focus-visible:w-16 group-focus-visible:bg-text-primary motion-reduce:transition-none"></span> */}
+            <span className="mr-4 h-1 w-1 rounded-full bg-text-muted transition-all group-hover:w-8 group-hover:bg-text-primary"></span>
+            <span className="nav-text text-xs font-bold uppercase tracking-widest text-text-muted group-hover:text-text-primary group-focus-visible:text-text-primary">
               About
             </span>
           </a>
         </li>
         <li>
           <a className="group flex items-center py-3" href="#experience">
-            <span className="mr-4 h-1 w-1 rounded-full bg-slate-500 transition-all group-hover:w-8 group-hover:bg-slate-200"></span>
-            <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200">
+            <span className="mr-4 h-1 w-1 rounded-full bg-text-muted transition-all group-hover:w-8 group-hover:bg-text-primary"></span>
+            <span className="nav-text text-xs font-bold uppercase tracking-widest text-text-muted group-hover:text-text-primary">
               Experience
             </span>
           </a>
         </li>
         <li>
           <a className="group flex items-center py-3" href="#projects">
-            <span className="mr-4 h-1 w-1 rounded-full bg-slate-500 transition-all group-hover:w-8 group-hover:bg-slate-200"></span>
-            <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200">
+            <span className="mr-4 h-1 w-1 rounded-full bg-text-muted transition-all group-hover:w-8 group-hover:bg-text-primary"></span>
+            <span className="nav-text text-xs font-bold uppercase tracking-widest text-text-muted group-hover:text-text-primary">
               Projects
             </span>
           </a>
