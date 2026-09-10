@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
-// import Projects from './components/Projects';
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -17,12 +17,7 @@ function App() {
 
           <Experience />
 
-          <section
-            id="projects"
-            className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-          >
-            {/* <Projects /> */}
-          </section>
+          <Projects />
 
           <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
             <p>

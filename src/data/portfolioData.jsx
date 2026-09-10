@@ -29,3 +29,22 @@ export const experienceData = [
     technologies: ["JavaScript", "TypeScript", "React", "Next.js"]
   }
 ];
+
+export const projectsData = [
+ {
+    id: 1,
+    title: "Developer Portfolio",
+    url: "https://rijsud.github.io/rijsud",
+    image: "/developer-portfolio.png", // Located in public/projects/
+    description: "Personal developer portfolio website that I built to get introduced to front-end development.",
+    technologies: ["Node", "React", "Tailwind CSS", "Vite"]
+  },
+  {
+    id: 2,
+    title: "NASA Psyche Card Game",
+    url: "https://missiontopsyche-platinum.github.io/platinum_24b_game_universe-psb/",
+    image: "/nasa-psyche-thumbnail.png",
+    description: "Interactive card game based on the NASA Psyche mission, designed to educate players about the asteroid exploration.",
+    technologies: ["C#", "Unity"]
+  }
+];
