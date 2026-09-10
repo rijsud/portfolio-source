@@ -12,8 +12,15 @@ export default function About() {
         </h2>
       </div>
       <div>
-        <p className="mb-4 text-text-secondary">{aboutData[0]}</p>
-        <p className="mb-4 text-text-secondary">{aboutData[1]}</p>
+        {aboutData.picture && (
+          <img
+            src={aboutData.picture}
+            alt={aboutData.name}
+            className="mb-4 rounded-lg object-cover"
+          />
+        )}
+        <p className="mb-4 text-text-secondary">{aboutData.description}</p>
+        <p className="mb-4 text-text-secondary">{aboutData.highlight}</p>
       </div>
     </section>
   );

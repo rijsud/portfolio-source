@@ -1,28 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  /* --color-page-bg: #7F55B1;
-  --color-page-text: #FFE1E0;
-  --color-selection: #9B7EBD; */
-
-  --color-background: #0f172a; /* Replaces slate-900 */
-  --color-surface: #1e293b;    /* Replaces slate-800 for hover states */
-  --color-text-primary: #e2e8f0; /* Replaces slate-200 */
-  --color-text-secondary: #94a3b8; /* Replaces slate-400 */
-  --color-text-muted: #64748b; /* Replaces slate-500 */
-  --color-accent: #5eead4;     /* Replaces teal-300 */
-  --color-accent-hover: #2dd4bf; /* Replaces teal-400 */
-  --color-accent-muted: rgba(45, 212, 191, 0.1); /* Replaces teal-400/10 */
-  --color-border-highlight: rgba(148, 163, 184, 0.1);
-
-  /* --color-slate-950: #2b1235;
-  --color-slate-900: #3a1847;
-  --color-slate-800: #5b2b6d;
-  --color-slate-500: #d9a8cf;
-  --color-slate-400: #f0c8e2;
-  --color-slate-200: #fff0fa;
-  --color-teal-400: #f7c1e3;
-  --color-teal-300: #ffe1f3; */
+  /* Very dark violet/grey to replace the navy background */ /* Replaces slate-900 */
+  --color-background: #13111C; 
+  
+  /* Slightly lighter elevated violet for hover states/cards */ /* Replaces slate-800 for hover states */
+  --color-surface: #231F33;    
+  
+  /* Very pale lavender (almost white) for headings to keep high contrast */ /* Replaces slate-200 */
+  --color-text-primary: #F3E8FF; 
+  
+  /* Muted mid-tone lavender for body text */ /* Replaces slate-400 */ 
+  --color-text-secondary: #A79BBF; 
+  
+  /* Dimmer purple-grey for dates, secondary labels, and navigation lines */ /* Replaces slate-500 */
+  --color-text-muted: #74688C; 
+  
+  /* Bright baby pink for links and primary highlights */ /* Replaces teal-300 */
+  --color-accent: #FBCFE8;     
+  
+  /* Slightly deeper baby pink for hover interactions */ /* Replaces teal-400 */
+  --color-accent-hover: #F9A8D4; 
+  
+  /* 10% opacity baby pink for the technology pill backgrounds */ /* Replaces teal-400/10 */
+  --color-accent-muted: rgba(251, 207, 232, 0.1); 
+  
+  /* 10% pale lavender for the subtle hover borders */
+  --color-border-highlight: rgba(243, 232, 255, 0.1);
 }
 
 @layer base {

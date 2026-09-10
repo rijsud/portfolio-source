@@ -1,11 +1,16 @@
+
 import Header from "./components/Header";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 
 function App() {
+
+
   return (
-    // <div className="min-h-screen bg-background text-text-primary">
+  // <div className="min-h-screen bg-background text-text-primary">
+
+    
     <div className="mx-auto min-h-screen max-w-7xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
       <div className="lg:flex lg:justify-between lg:gap-4">
         {/* Left Column: Sticky Header & Navigation */}
@@ -36,6 +41,7 @@ function App() {
         </main>
       </div>
     </div>
+
   );
 }
 
