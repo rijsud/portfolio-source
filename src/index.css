@@ -2,7 +2,7 @@
 
 @theme {
   /* Very dark violet/grey to replace the navy background */ /* Replaces slate-900 */
-  --color-background: #13111C; 
+  --color-background: #250835; /* 13111C  392061 */
   
   /* Slightly lighter elevated violet for hover states/cards */ /* Replaces slate-800 for hover states */
   --color-surface: #231F33;    
@@ -17,13 +17,13 @@
   --color-text-muted: #74688C; 
   
   /* Bright baby pink for links and primary highlights */ /* Replaces teal-300 */
-  --color-accent: #FBCFE8;     
+  --color-accent: #FFCFE8;     
   
   /* Slightly deeper baby pink for hover interactions */ /* Replaces teal-400 */
-  --color-accent-hover: #F9A8D4; 
+  --color-accent-hover: #EB6896; 
   
   /* 10% opacity baby pink for the technology pill backgrounds */ /* Replaces teal-400/10 */
-  --color-accent-muted: rgba(251, 207, 232, 0.1); 
+  --color-accent-muted: rgba(255, 207, 232, 0.1); 
   
   /* 10% pale lavender for the subtle hover borders */
   --color-border-highlight: rgba(243, 232, 255, 0.1);

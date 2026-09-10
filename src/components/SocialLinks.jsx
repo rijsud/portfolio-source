@@ -4,7 +4,7 @@ export default function SocialLinks() {
       {/* GitHub */}
       <li className="mr-5 shrink-0 text-xs">
         <a 
-          className="block text-text-secondary transition-colors hover:text-text-primary" 
+          className="block text-text-secondary transition-colors hover:text-accent" 
           href="https://github.com/rijsud" 
           target="_blank" 
           rel="noreferrer noopener" 
@@ -21,7 +21,7 @@ export default function SocialLinks() {
       {/* LinkedIn */}
       <li className="mr-5 shrink-0 text-xs">
         <a 
-          className="block text-text-secondary transition-colors hover:text-text-primary" 
+          className="block text-text-secondary transition-colors hover:text-accent" 
           href="https://www.linkedin.com/in/rijul-sudesh/" 
           target="_blank" 
           rel="noreferrer noopener" 

@@ -36,7 +36,7 @@ export const projectsData = [
  {
     id: 1,
     title: "Developer Portfolio",
-    url: "https://rijsud.github.io/rijsud",
+    url: "https://rijsud.github.io",
     image: "/developer-portfolio.png", // Located in public/projects/
     description: "Personal developer portfolio website that I built to get introduced to front-end development.",
     technologies: ["Node", "React", "Tailwind CSS", "Vite"]
