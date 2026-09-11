@@ -39,5 +39,13 @@ export const projectsData = [
     image: "/nasa-psyche-thumbnail.webp",
     description: "Interactive card game based on the NASA Psyche mission, designed to educate players about the asteroid exploration.",
     technologies: ["C#", "Unity"]
+  },
+  {
+    id: 3,
+    title: "Desktop Pet",
+    url: "https://www.linkedin.com/feed/update/urn:li:activity:7404834882369204225/",
+    image: "/desktop-pet.webp",
+    description: "A desktop pet that sits on your desktop and interacts with you based on the character Kuromi.",
+    technologies: ["Godot", "GDScript", "Blender"]
   }
 ];

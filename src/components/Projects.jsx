@@ -54,7 +54,7 @@ export default function Projects() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
                           fill="currentColor"
-                          className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-1 -translate-x-px transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 motion-reduce:transition-none"
+                          className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-1 -translate-x-px transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-1 motion-reduce:transition-none"
                           aria-hidden="true"
                         >
                           <path

@@ -11,10 +11,7 @@ function App() {
     const handleMouseMove = (event) => {
       setMousePos({ x: event.clientX, y: event.clientY });
     };
-
     window.addEventListener("mousemove", handleMouseMove);
-
-    // You must clean up the event listener to prevent memory leaks
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
     };
@@ -23,10 +20,6 @@ function App() {
   return (
     // <div className="min-h-screen bg-background text-text-primary">
     <div className="relative min-h-screen">
-      {/* 
-        The pointer-events-none class is critical. 
-        Without it, this overlay will block all clicks and hover states on your links. 
-      */}
       <div
         className="pointer-events-none fixed inset-0 z-30 transition duration-300"
         style={{

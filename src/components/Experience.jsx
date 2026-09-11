@@ -40,7 +40,7 @@ export default function Experience() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
                           fill="currentColor"
-                          className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-1 -translate-x-px transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5 motion-reduce:transition-none"
+                          className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-1 -translate-x-px transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-1 motion-reduce:transition-none"
                           aria-hidden="true"
                         >
                           <path
@@ -72,6 +72,33 @@ export default function Experience() {
             </li>
           ))}
         </ol>
+      </div>
+
+      <div className="mt-12">
+        <a
+          className="group/link inline-flex items-baseline font-semibold leading-tight text-text-primary hover:text-accent focus-visible:text-accent"
+          href="/resume.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label="View Full Resumé (opens in a new tab)"
+        >
+          <span>View Full Resumé</span>
+
+          {/* Reusing animated arrow SVG */}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-1 -translate-x-px transition-transform group-hover/link:-translate-y-0.5 group-hover/link:translate-x-1 motion-reduce:transition-none"
+            aria-hidden="true"
+          >
+            <path
+              fillRule="evenodd"
+              d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+        </a>
       </div>
     </section>
   );

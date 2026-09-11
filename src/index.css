@@ -2,7 +2,7 @@
 
 @theme {
   /* Very dark violet/grey to replace the navy background */ /* Replaces slate-900 */
-  --color-background: #392061; /* 13111C  392061 */
+  --color-background: #514283; /* 13111C  392061 */
   
   /* Slightly lighter elevated violet for hover states/cards */ /* Replaces slate-800 for hover states */
   --color-surface: #231F33;    
@@ -11,10 +11,10 @@
   --color-text-primary: #F3E8FF; 
   
   /* Muted mid-tone lavender for body text */ /* Replaces slate-400 */ 
-  --color-text-secondary: #A79BBF; 
+  --color-text-secondary: #C3C7CB; 
   
   /* Dimmer purple-grey for dates, secondary labels, and navigation lines */ /* Replaces slate-500 */
-  --color-text-muted: #74688C; 
+  --color-text-muted: #A4A8AC; 
   
   /* Bright baby pink for links and primary highlights */ /* Replaces teal-300 */
   --color-accent: #FFCFE8;     
@@ -29,7 +29,7 @@
   --color-border-highlight: rgba(243, 232, 255, 0.1);
   
   /* radial gradient for mouse hover effect */
-  --color-radial-gradient: rgba(137, 152, 141, 0.05);
+  --color-radial-gradient: rgba(197, 172, 181, 0.05);
 }
 
 @layer base {
