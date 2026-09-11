@@ -1,20 +1,20 @@
 export const headerData = {
-  name: "Brittany Chiang",
-  title: "Frontend Engineer",
-  location: "San Francisco, CA"
+  name: "Rijul Sudesh",
+  title: "Backend Engineer",
+  location: "Thiruvalla, Kerala, India"
 };
 
 export const aboutData = {
-  name: "Brittany Chiang",
+  name: "Rijul Sudesh",
   picture: "/headshot.webp", // Located in public/
-  description: "Hi there! I'm Brittany, and I like building things. I'm a frontend engineer with expertise in crafting accessible, pixel-perfect user interfaces. I take pride in creating thoughtful, inclusive products and have a sharp eye for the little details that separate a good product from an exceptional one. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  highlight: <>Currently, I'm a Senior Frontend Engineer at <a href="https://klaviyo.com" className="font-medium text-text-primary hover:text-accent">Klaviyo</a>, where I work on our design system.</>
+  description: <>Hi there! I'm Rijul, and I like being creative. I'm a backend focused fullstack engineer with expertise in <strong>Golang</strong>, <strong>Python</strong>, <strong>.NET</strong> and now <strong>React</strong>. Familiar with modern development practices such as <strong>CI/CD</strong> Pipelines and <strong>Agile</strong> Development and tools including <strong>Docker</strong> and <strong>PostgreSQL</strong>.</>,
+  highlight: <>I'm an alumni at <a href="https://www.psu.edu/" className="font-medium text-text-primary hover:text-accent">Penn State University</a>, majoring in Software Engineering.</>
 };
 
 export const experienceData = [
   {
     id: 1,
-    dateRange: "March 2025 - May 2025",
+    dateRange: "Mar 2025 - May 2025",
     title: "Software Engineer Intern",
     company: "Hopscotch",
     companyUrl: "https://www.joinhopscotch.com/",
