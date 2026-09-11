@@ -29,7 +29,7 @@
   --color-border-highlight: rgba(243, 232, 255, 0.1);
   
   /* radial gradient for mouse hover effect */
-  --color-radial-gradient: rgba(197, 172, 181, 0.05);
+  --color-radial-gradient: rgba(255, 207, 232, 0.1);
 }
 
 @layer base {
