@@ -13,11 +13,18 @@ export default function About() {
       </div>
       <div>
         {aboutData.picture && (
-          <img
-            src={aboutData.picture}
-            alt={aboutData.name}
-            className="mb-4 rounded-lg object-cover"
-          />
+          /* Wrapper */
+          <div className="group relative mb-8 w-48 sm:w-64">
+            {/* Background Square starts hidden behind the image, moves down and right on hover */}
+            <div className="absolute inset-0 z-0 rounded-lg border-2 border-accent transition-transform duration-300 ease-out group-hover:translate-x-2 group-hover:translate-y-2"></div>
+
+            {/* Image Sits on top (z-10) moves up and left on hover */}
+            <img
+              src={aboutData.picture}
+              alt={aboutData.name}
+              className="relative z-10 w-full rounded-lg object-cover transition-transform duration-300 ease-out group-hover:-translate-x-2 group-hover:-translate-y-2"
+            />
+          </div>
         )}
         <p className="mb-4 text-text-secondary">{aboutData.description}</p>
         <p className="mb-4 text-text-secondary">{aboutData.highlight}</p>

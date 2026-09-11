@@ -6,7 +6,7 @@ export const headerData = {
 
 export const aboutData = {
   name: "Brittany Chiang",
-  picture: "/headshot.webp", // Located in public/
+  picture: "/head.webp", // Located in public/
   description: "Hi there! I'm Brittany, and I like building things. I'm a frontend engineer with expertise in crafting accessible, pixel-perfect user interfaces. I take pride in creating thoughtful, inclusive products and have a sharp eye for the little details that separate a good product from an exceptional one. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   highlight: <>Currently, I'm a Senior Frontend Engineer at <a href="https://klaviyo.com" className="font-medium text-text-primary hover:text-accent">Klaviyo</a>, where I work on our design system.</>
 };
